@@ -1,0 +1,6 @@
+.env
+.env.*
+credentials.md
+.mcpregistry*
+*.key
+*.pem

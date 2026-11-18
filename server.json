@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.frontmost/frontmost-ai",
+  "description": "Track your brand's AI visibility. Find opportunities to reach more buyers through AI.",
+  "title": "Frontmost AI",
+  "version": "1.0.1",
+  "websiteUrl": "https://frontmost.ai",
+  "icons": [
+    {
+      "src": "https://frontmost.ai/site/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.frontmost.ai/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/frontmost-ai/mcp",
+    "source": "github"
+  }
+}
