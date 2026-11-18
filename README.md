@@ -17,7 +17,33 @@ The web app remains available when you want to review results yourself.
 These tools work with your Frontmost AI account. Your own saved results depend on your project setup and active plan or trial.
 For current plans and AI app coverage, see [Frontmost AI pricing](https://frontmost.ai/pricing).
 
-## Connect in VS Code and GitHub Copilot
+## Connect your AI
+
+Use Frontmost AI in ChatGPT, Claude, or another MCP client that supports Streamable HTTP and OAuth sign-in.
+The server runs at the hosted endpoint. You do not need to run a local server process.
+
+### ChatGPT
+
+Install [Frontmost AI in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6af5e20cbb848191837fdd2055866190) and connect your Frontmost AI account.
+If you are new, complete your account and business setup when prompted.
+
+### Claude
+
+Open **Settings → Connectors** in Claude and add a custom connector with this URL:
+
+```text
+https://app.frontmost.ai/mcp/claude
+```
+
+Sign in with your Frontmost AI account when prompted.
+
+### Other MCP clients
+
+Add `https://app.frontmost.ai/mcp` as a remote Streamable HTTP server and complete OAuth sign-in.
+Your client must support both the transport and authentication method.
+See [Connect your AI](https://frontmost.ai/connect) for client-specific instructions.
+
+### VS Code and GitHub Copilot
 
 Use a VS Code configuration that supports remote HTTP MCP servers and OAuth sign-in.
 
@@ -28,15 +54,11 @@ Use a VS Code configuration that supports remote HTTP MCP servers and OAuth sign
 If you are new to Frontmost AI, complete your account and business setup when prompted.
 Review the requested account access and tool actions in your client.
 
-The server uses **Streamable HTTP** with **OAuth**.
-It runs at the hosted endpoint. You do not need to run a local server process.
-
 Current VS Code instructions: [Add and use MCP servers](https://code.visualstudio.com/docs/agent-customization/mcp-servers).
-For other supported clients, see [Connect your AI](https://frontmost.ai/connect).
 
 ## Try a task
 
-After connecting, ask Copilot:
+After connecting, ask your assistant:
 
 > Use Frontmost AI to list my projects and review the latest saved results for my business. Show total and unbranded visibility with counts.
 
