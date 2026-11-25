@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.frontmost/frontmost-ai",
-  "description": "Track your brand's AI visibility. Find opportunities to reach more buyers through AI.",
+  "description": "Headless AEO for AI search. Track AI visibility, brand mentions and citations with your own agent.",
   "title": "Frontmost AI",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://frontmost.ai",
   "icons": [
     {
